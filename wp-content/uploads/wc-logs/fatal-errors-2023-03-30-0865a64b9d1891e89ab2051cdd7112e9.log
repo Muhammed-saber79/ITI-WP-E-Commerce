@@ -1,0 +1,247 @@
+2023-03-30T20:05:10+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Error given in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php:440
+Stack trace:
+#0 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(440): explode()
+#1 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(1055): the_conference_breadcrumb()
+#2 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/template-functions.php(162): the_conference_header_banner()
+#3 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(308): the_conference_content_start()
+#4 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/e-commerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/html/e-commerce/wp-content/themes/the-conference/header.php(60): do_action()
+#7 /var/www/html/e-commerce/wp-includes/template.php(783): require_once('...')
+#8 /var/www/html/e-commerce/wp-includes/template.php(718): load_template()
+#9 /var/www/html/e-commerce/wp-includes/general-template.php(48): locate_template()
+#10 /var/www/html/e-commerce/wp-content/plugins/the-events-calendar/src/views/v2/default-template.php(17): get_header()
+#11 /var/www/html/e-commerce/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/html/e-commerce/wp-blog-header.php(19): require_once('...')
+#13 /var/www/html/e-commerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php on line 440
+
+2023-03-30T20:05:19+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Error given in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php:440
+Stack trace:
+#0 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(440): explode()
+#1 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(1055): the_conference_breadcrumb()
+#2 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/template-functions.php(162): the_conference_header_banner()
+#3 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(308): the_conference_content_start()
+#4 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/e-commerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/html/e-commerce/wp-content/themes/the-conference/header.php(60): do_action()
+#7 /var/www/html/e-commerce/wp-includes/template.php(783): require_once('...')
+#8 /var/www/html/e-commerce/wp-includes/template.php(718): load_template()
+#9 /var/www/html/e-commerce/wp-includes/general-template.php(48): locate_template()
+#10 /var/www/html/e-commerce/wp-content/plugins/the-events-calendar/src/views/v2/default-template.php(17): get_header()
+#11 /var/www/html/e-commerce/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/html/e-commerce/wp-blog-header.php(19): require_once('...')
+#13 /var/www/html/e-commerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php on line 440
+
+2023-03-30T20:05:21+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Error given in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php:440
+Stack trace:
+#0 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(440): explode()
+#1 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(1055): the_conference_breadcrumb()
+#2 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/template-functions.php(162): the_conference_header_banner()
+#3 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(308): the_conference_content_start()
+#4 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/e-commerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/html/e-commerce/wp-content/themes/the-conference/header.php(60): do_action()
+#7 /var/www/html/e-commerce/wp-includes/template.php(783): require_once('...')
+#8 /var/www/html/e-commerce/wp-includes/template.php(718): load_template()
+#9 /var/www/html/e-commerce/wp-includes/general-template.php(48): locate_template()
+#10 /var/www/html/e-commerce/wp-content/plugins/the-events-calendar/src/views/v2/default-template.php(17): get_header()
+#11 /var/www/html/e-commerce/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/html/e-commerce/wp-blog-header.php(19): require_once('...')
+#13 /var/www/html/e-commerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php on line 440
+
+2023-03-30T20:05:36+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Error given in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php:440
+Stack trace:
+#0 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(440): explode()
+#1 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(1055): the_conference_breadcrumb()
+#2 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/template-functions.php(162): the_conference_header_banner()
+#3 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(308): the_conference_content_start()
+#4 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/e-commerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/html/e-commerce/wp-content/themes/the-conference/header.php(60): do_action()
+#7 /var/www/html/e-commerce/wp-includes/template.php(783): require_once('...')
+#8 /var/www/html/e-commerce/wp-includes/template.php(718): load_template()
+#9 /var/www/html/e-commerce/wp-includes/general-template.php(48): locate_template()
+#10 /var/www/html/e-commerce/wp-content/plugins/the-events-calendar/src/views/v2/default-template.php(17): get_header()
+#11 /var/www/html/e-commerce/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/html/e-commerce/wp-blog-header.php(19): require_once('...')
+#13 /var/www/html/e-commerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php on line 440
+
+2023-03-30T20:09:04+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Error given in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php:440
+Stack trace:
+#0 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(440): explode()
+#1 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(1055): the_conference_breadcrumb()
+#2 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/template-functions.php(162): the_conference_header_banner()
+#3 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(308): the_conference_content_start()
+#4 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/e-commerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/html/e-commerce/wp-content/themes/the-conference/header.php(60): do_action()
+#7 /var/www/html/e-commerce/wp-includes/template.php(783): require_once('...')
+#8 /var/www/html/e-commerce/wp-includes/template.php(718): load_template()
+#9 /var/www/html/e-commerce/wp-includes/general-template.php(48): locate_template()
+#10 /var/www/html/e-commerce/wp-content/plugins/the-events-calendar/src/views/v2/default-template.php(17): get_header()
+#11 /var/www/html/e-commerce/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/html/e-commerce/wp-blog-header.php(19): require_once('...')
+#13 /var/www/html/e-commerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php on line 440
+
+2023-03-30T20:10:12+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Error given in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php:440
+Stack trace:
+#0 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(440): explode()
+#1 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(1055): the_conference_breadcrumb()
+#2 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/template-functions.php(162): the_conference_header_banner()
+#3 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(308): the_conference_content_start()
+#4 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/e-commerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/html/e-commerce/wp-content/themes/the-conference/header.php(60): do_action()
+#7 /var/www/html/e-commerce/wp-includes/template.php(783): require_once('...')
+#8 /var/www/html/e-commerce/wp-includes/template.php(718): load_template()
+#9 /var/www/html/e-commerce/wp-includes/general-template.php(48): locate_template()
+#10 /var/www/html/e-commerce/wp-content/plugins/the-events-calendar/src/views/v2/default-template.php(17): get_header()
+#11 /var/www/html/e-commerce/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/html/e-commerce/wp-blog-header.php(19): require_once('...')
+#13 /var/www/html/e-commerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php on line 440
+
+2023-03-30T20:10:25+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Error given in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php:440
+Stack trace:
+#0 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(440): explode()
+#1 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(1055): the_conference_breadcrumb()
+#2 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/template-functions.php(162): the_conference_header_banner()
+#3 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(308): the_conference_content_start()
+#4 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/e-commerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/html/e-commerce/wp-content/themes/the-conference/header.php(60): do_action()
+#7 /var/www/html/e-commerce/wp-includes/template.php(783): require_once('...')
+#8 /var/www/html/e-commerce/wp-includes/template.php(718): load_template()
+#9 /var/www/html/e-commerce/wp-includes/general-template.php(48): locate_template()
+#10 /var/www/html/e-commerce/wp-content/plugins/the-events-calendar/src/views/v2/default-template.php(17): get_header()
+#11 /var/www/html/e-commerce/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/html/e-commerce/wp-blog-header.php(19): require_once('...')
+#13 /var/www/html/e-commerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php on line 440
+
+2023-03-30T20:10:32+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Error given in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php:440
+Stack trace:
+#0 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(440): explode()
+#1 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(1055): the_conference_breadcrumb()
+#2 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/template-functions.php(162): the_conference_header_banner()
+#3 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(308): the_conference_content_start()
+#4 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/e-commerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/html/e-commerce/wp-content/themes/the-conference/header.php(60): do_action()
+#7 /var/www/html/e-commerce/wp-includes/template.php(783): require_once('...')
+#8 /var/www/html/e-commerce/wp-includes/template.php(718): load_template()
+#9 /var/www/html/e-commerce/wp-includes/general-template.php(48): locate_template()
+#10 /var/www/html/e-commerce/wp-content/plugins/the-events-calendar/src/views/v2/default-template.php(17): get_header()
+#11 /var/www/html/e-commerce/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/html/e-commerce/wp-blog-header.php(19): require_once('...')
+#13 /var/www/html/e-commerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php on line 440
+
+2023-03-30T21:59:19+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Error given in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php:440
+Stack trace:
+#0 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(440): explode()
+#1 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(1055): the_conference_breadcrumb()
+#2 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/template-functions.php(162): the_conference_header_banner()
+#3 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(308): the_conference_content_start()
+#4 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/e-commerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/html/e-commerce/wp-content/themes/the-conference/header.php(60): do_action()
+#7 /var/www/html/e-commerce/wp-includes/template.php(783): require_once('...')
+#8 /var/www/html/e-commerce/wp-includes/template.php(718): load_template()
+#9 /var/www/html/e-commerce/wp-includes/general-template.php(48): locate_template()
+#10 /var/www/html/e-commerce/wp-content/plugins/the-events-calendar/src/views/v2/default-template.php(17): get_header()
+#11 /var/www/html/e-commerce/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/html/e-commerce/wp-blog-header.php(19): require_once('...')
+#13 /var/www/html/e-commerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php on line 440
+
+2023-03-30T22:06:37+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Error given in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php:440
+Stack trace:
+#0 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(440): explode()
+#1 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(1055): the_conference_breadcrumb()
+#2 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/template-functions.php(162): the_conference_header_banner()
+#3 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(308): the_conference_content_start()
+#4 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/e-commerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/html/e-commerce/wp-content/themes/the-conference/header.php(60): do_action()
+#7 /var/www/html/e-commerce/wp-includes/template.php(783): require_once('...')
+#8 /var/www/html/e-commerce/wp-includes/template.php(718): load_template()
+#9 /var/www/html/e-commerce/wp-includes/general-template.php(48): locate_template()
+#10 /var/www/html/e-commerce/wp-content/plugins/the-events-calendar/src/views/v2/default-template.php(17): get_header()
+#11 /var/www/html/e-commerce/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/html/e-commerce/wp-blog-header.php(19): require_once('...')
+#13 /var/www/html/e-commerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php on line 440
+
+2023-03-30T22:07:18+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Error given in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php:440
+Stack trace:
+#0 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(440): explode()
+#1 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(1055): the_conference_breadcrumb()
+#2 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/template-functions.php(162): the_conference_header_banner()
+#3 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(308): the_conference_content_start()
+#4 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/e-commerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/html/e-commerce/wp-content/themes/the-conference/header.php(60): do_action()
+#7 /var/www/html/e-commerce/wp-includes/template.php(783): require_once('...')
+#8 /var/www/html/e-commerce/wp-includes/template.php(718): load_template()
+#9 /var/www/html/e-commerce/wp-includes/general-template.php(48): locate_template()
+#10 /var/www/html/e-commerce/wp-content/plugins/the-events-calendar/src/views/v2/default-template.php(17): get_header()
+#11 /var/www/html/e-commerce/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/html/e-commerce/wp-blog-header.php(19): require_once('...')
+#13 /var/www/html/e-commerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php on line 440
+
+2023-03-30T22:07:31+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Error given in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php:440
+Stack trace:
+#0 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(440): explode()
+#1 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(1055): the_conference_breadcrumb()
+#2 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/template-functions.php(162): the_conference_header_banner()
+#3 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(308): the_conference_content_start()
+#4 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/e-commerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/html/e-commerce/wp-content/themes/the-conference/header.php(60): do_action()
+#7 /var/www/html/e-commerce/wp-includes/template.php(783): require_once('...')
+#8 /var/www/html/e-commerce/wp-includes/template.php(718): load_template()
+#9 /var/www/html/e-commerce/wp-includes/general-template.php(48): locate_template()
+#10 /var/www/html/e-commerce/wp-content/plugins/the-events-calendar/src/views/v2/default-template.php(17): get_header()
+#11 /var/www/html/e-commerce/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/html/e-commerce/wp-blog-header.php(19): require_once('...')
+#13 /var/www/html/e-commerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php on line 440
+
+2023-03-30T22:20:57+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Error given in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php:440
+Stack trace:
+#0 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(440): explode()
+#1 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php(1055): the_conference_breadcrumb()
+#2 /var/www/html/e-commerce/wp-content/themes/the-conference/inc/template-functions.php(162): the_conference_header_banner()
+#3 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(308): the_conference_content_start()
+#4 /var/www/html/e-commerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/e-commerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /var/www/html/e-commerce/wp-content/themes/the-conference/header.php(60): do_action()
+#7 /var/www/html/e-commerce/wp-includes/template.php(783): require_once('...')
+#8 /var/www/html/e-commerce/wp-includes/template.php(718): load_template()
+#9 /var/www/html/e-commerce/wp-includes/general-template.php(48): locate_template()
+#10 /var/www/html/e-commerce/wp-content/plugins/the-events-calendar/src/views/v2/default-template.php(17): get_header()
+#11 /var/www/html/e-commerce/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/html/e-commerce/wp-blog-header.php(19): require_once('...')
+#13 /var/www/html/e-commerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/e-commerce/wp-content/themes/the-conference/inc/extras.php on line 440
+
